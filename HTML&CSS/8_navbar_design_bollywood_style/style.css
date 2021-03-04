@@ -1,0 +1,110 @@
+body{
+    background: rgb(36,0,13);
+    background: linear-gradient(135deg, rgba(36,0,13,1) 0%, rgba(230,172,9,1) 45%, rgba(0,255,222,1) 100%);
+}
+
+.navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+}
+.movies{
+    display: inline;
+    float: left;
+    padding: 20px 15px;
+    background-color: steelblue;
+    
+}
+.movies:hover{
+    background-color: crimson;
+}
+.movies:active{
+    background-color: cyan;
+}
+.home{
+    display: inline;
+    float: left;
+    padding: 20px 15px;
+}
+.home:hover{
+    background-color: crimson;
+}
+.home:active{
+    background-color: cyan;
+}
+.about{
+    display: inline;
+    float: left;
+    padding: 20px 15px;
+
+}
+.about:hover{
+    background-color: crimson;
+}
+.about:active{
+    background-color: cyan;
+}
+.contact{
+    display: inline;
+    float: left;
+    padding: 20px 15px;
+}
+.contact:hover{
+    background-color: crimson;
+}
+.contact:active{
+    background-color: cyan;
+}
+
+li, a {
+    display: inline;
+    color:white;
+    font-style: italic;
+    font-size:large;
+    font-weight: bold;
+    text-decoration: none;
+}
+.footer{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    position: fixed;
+    height:40px;
+    width: 50%;
+    margin-top: none;
+    background-color: rgb(6, 84, 104);
+    margin-top: 48%;
+    margin-left: 25%;
+}
+.box-1{
+    position:absolute ;
+    margin-top: 09%;
+    margin-left: 5%;
+
+}
+.box-2{
+    position:absolute ;
+    margin-top: 09%;
+    margin-left: 35%;
+}
+.box-3{
+    position:absolute ;
+    margin-top: 09%;
+    margin-left: 65%;
+}
+.box-4{
+    position:absolute ;
+    margin-top: 50%;
+    margin-left: 5%;
+}
+.box-5{
+    position:absolute ;
+    margin-top: 50%;
+    margin-left: 35%;
+}
+.box-6{
+    position:absolute ;
+    margin-top: 50%;
+    margin-left: 65%;
+}
