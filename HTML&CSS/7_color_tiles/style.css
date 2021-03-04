@@ -1,0 +1,99 @@
+.container{
+    display: flex;
+    text-align: center;
+    color: black;
+    
+}
+.red{
+    height: 150px;
+    width: 140px;
+    background-color: red;
+    margin: 20px;
+    margin-left: 170px;
+}
+.aqua{
+    height: 150px;
+    width: 140px;
+    background-color:aqua;
+    margin: 20px;
+}
+.megenta{
+    height: 150px;
+    width: 140px;
+    background-color: magenta;
+    margin: 20px;
+}
+.pink{
+    height: 150px;
+    width: 140px;
+    background-color: pink;
+    margin: 20px;
+}
+.lightgreen{
+    height: 150px;
+    width: 140px;
+    background-color: lightgreen;
+    margin: 20px;
+}
+.yellow{
+    height: 150px;
+    width: 140px;
+    background-color: yellow;
+    margin: 20px;
+    margin-left: 170px;
+}
+.green{
+    height: 150px;
+    width: 140px;
+    background-color:green;
+    margin: 20px;
+    margin-left: 170px
+}
+.coral{
+    height: 150px;
+    width: 140px;
+    background-color: coral;
+    margin: 20px;
+}
+.hotpink{
+    height: 150px;
+    width: 140px;
+    background-color: hotpink;
+    margin: 20px;
+}
+.aquamarine{
+    height: 150px;
+    width: 140px;
+    background-color: aquamarine;
+    margin: 20px;
+}
+.choclate{
+    height: 150px;
+    width: 140px;
+    background-color: chocolate;
+    margin: 20px;
+}
+.violet{
+    height: 150px;
+    width: 140px;
+    background-color:violet;
+    margin: 20px;
+}
+.grey{
+    height: 150px;
+    width: 140px;
+    background-color: grey;
+    margin: 20px;
+}
+.gold{
+    height: 150px;
+    width: 140px;
+    background-color: gold;
+    margin: 20px;
+}
+.khaki{
+    height: 150px;
+    width: 140px;
+    background-color: khaki;
+    margin: 20px;
+}
