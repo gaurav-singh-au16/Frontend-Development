@@ -1,0 +1,35 @@
+body{
+    background-image: url("https://images.unsplash.com/photo-1571434976902-a6e3e1eb0d51?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1512&q=80");
+}
+.joke{
+    height: 300px;
+    width: 630px;
+    background-color: rgb(17, 17, 17);
+    color: aliceblue;
+    overflow: scroll;
+}
+.btn{
+    height: 40px;
+    width: 120px;
+    margin: 5px;
+    background-color: aquamarine;
+    transition: .3s ease;
+    color: blueviolet;
+}
+.btn:hover{
+    background-color: coral;
+    transform: scale(1.1);
+}
+#next{
+    height: 40px;
+    width: 120px;
+    margin: 5px;
+    background-color: rgb(247, 211, 54);
+    transition: .3s ease;
+    color: black;
+}
+#next:hover{
+    background-color: rgb(150, 70, 243);
+    transform: scale(1.2);
+    color: antiquewhite;
+}
