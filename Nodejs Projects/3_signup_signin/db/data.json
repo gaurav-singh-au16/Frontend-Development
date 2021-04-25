@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Gaurav Singh",
+        "userName": "gaurav",
+        "email": "gaurav@gmail.com",
+        "mobile": "9555095817",
+        "password": "abc@123"
+    },
+    {
+        "name": "Salman Khan",
+        "userName": "salman",
+        "email": "salmankhan@yahoo.com",
+        "number": "9999999999",
+        "password": "abc@123"
+    }
+]

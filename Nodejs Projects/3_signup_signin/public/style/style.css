@@ -1,0 +1,41 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Freckle+Face&family=New+Tegomin&family=Original+Surfer&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap');
+body{
+    background-image: url("https://images.unsplash.com/photo-1506875644286-0fa3dc4df91f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
+    /* background-color: antiquewhite; */
+}
+.container{
+    background-color: lightcyan;
+}
+#heading{
+    /* font-family: 'Zen Dots', cursive; */
+    /* font-family: 'Original Surfer', cursive; */
+    font-family: 'Freckle Face', cursive;
+    color: rgb(230, 10, 120);
+    background-color: rgb(243, 220, 190);
+    font-size: 60px;
+}
+#signup{
+    font-size: 30px;
+    color: rgb(72, 231, 24);
+    font-family: 'Original Surfer', cursive;
+}
+a{
+    color: rgb(243, 141, 9);
+}
+.btn{
+    background-color: rgb(247, 46, 10);
+    color: antiquewhite;
+    transition: .3s ease ;
+}
+.btn:hover{
+    background-color: greenyellow;
+    transform: scale(1.1);
+}
+
+/* #button{
+    background-color: rgb(247, 46, 10);
+    color: antiquewhite;
+    transition: .3s ease ;
+} */
