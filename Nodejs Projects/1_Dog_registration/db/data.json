@@ -14,5 +14,13 @@
         "height": "5",
         "weight": "23",
         "ownerName": "Shikaari"
+    },
+    {
+        "name": "sheru",
+        "age": "",
+        "breed": "",
+        "height": "",
+        "weight": "",
+        "ownerName": ""
     }
 ]
