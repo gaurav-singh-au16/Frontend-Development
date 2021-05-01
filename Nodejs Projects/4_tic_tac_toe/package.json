@@ -1,0 +1,14 @@
+{
+  "name": "4_tic_tac_toe",
+  "version": "1.0.0",
+  "description": "tic tac toe game",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gaurav Singh",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
