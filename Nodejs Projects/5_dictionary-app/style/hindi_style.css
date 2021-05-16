@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Farro:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
+body{
+    /* background: linear-gradient(to right, #f1f2b5, #135058); */
+    background: linear-gradient(to right, #76b852, #8dc26f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.result{
+    border-radius: 20px;
+    background: linear-gradient(to right, #ee9ca7, #ffdde1);
+    overflow: auto   ;
+    font-family: 'Farro', sans-serif;
+}
+#extra{
+    color: aquamarine;
+}
+.text{
+
+    border-radius: 7px;
+}
+.h3{
+    font-family: 'Farro', sans-serif;
+    color: crimson;
+}
+.h4{
+    color: darkblue;
+    font-family: 'Nanum Myeongjo', serif;
+}
+.heading{
+    font-family: 'Farro', sans-serif;
+}
