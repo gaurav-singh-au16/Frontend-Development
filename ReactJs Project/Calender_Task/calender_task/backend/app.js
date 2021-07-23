@@ -1,22 +1,30 @@
 const express = require('express')
 const app = express()
-const cors = require('cors')
+const mongoose = require('mongoose')    
 app.use(express.json())
+require('dotenv').config()
 
-app.use(
-    cors({
-    origin: 'http://localhost:3001',
-    credentials: true,
-  }))
-app.use(express.urlencoded({extended:false}))
+const { DATABASE } = process.env
 
-
-app.post("/node", (req, res) => {
-    console.log(req.body)
-    
+mongoose.connect(DATABASE, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+    useFindAndModify: false,
+    useCreateIndex: true
+}, (err) => {
+    if (err) throw err
+    console.log('MONGO DB DataBase Connected')
 })
 
+app.use(express.urlencoded({extended:false}))
 
-app.listen(process.env.PORT || 3000, ()=>{
-    console.log("Server Started @ 3000")
+const taskRoutes = require("./routes/task")
+const userRoutes = require("./routes/user")
+
+app.use("", taskRoutes)
+app.use("", userRoutes)
+
+
+app.listen(process.env.PORT || 3001, ()=>{
+    console.log("Server Started @ 3001")
 })

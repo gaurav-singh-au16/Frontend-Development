@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import axios from 'axios'
 
 const createTask = (props, event) => {
@@ -6,15 +6,26 @@ const createTask = (props, event) => {
     console.log(data)
     
 
-    axios.post("http://localhost:3000/node", data).then(() => {
+    axios.post("http://localhost:3001/node", data).then(() => {
         console.log("sucessfull send the data")
     }).catch(() => {
         console.log("Something went wrong. Plase try again later");
     });
 }
 
+
+
 function Task(props) {
     const [input, setInput] = useState('')
+    
+    const [data, updateData] = useState([]);
+    useEffect(() => {
+        axios.get('http://localhost:3001')
+            .then(res => updateData(res.data))            
+            .catch(error => console.log("Error"))
+    }, [])
+    console.log(data)
+    
     return (
         <div className="container border border-dark rounded w-50">
             <h1 className="display-6">No Task For today</h1>
@@ -40,8 +51,10 @@ function Task(props) {
                     </div>
                 </div>
             </div>
-
-            <h1 className="display-6">Upcoming Task: </h1>
+                {data.map((project, key) => (
+                    
+                    <h1 className="display-6" key={key}>Upcoming Task: {project.events} on {project.date}</h1>
+                ))}
         </div>
     )
 }
